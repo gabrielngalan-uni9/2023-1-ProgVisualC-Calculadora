@@ -85,15 +85,9 @@ namespace CalculadoraOpcoes
             txtTotal.Text = total.ToString();
         }
 
-        private void btnAlterar_Click(object sender, EventArgs e)
-        {
-            txtTotal.Enabled = true;
-            txtTotal.ReadOnly = false;
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+
         }
     }
 }
