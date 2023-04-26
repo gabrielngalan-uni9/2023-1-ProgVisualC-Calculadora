@@ -41,7 +41,6 @@
             rdbSomar = new RadioButton();
             btnLimpar = new Button();
             btnCalcular = new Button();
-            btnAlterar = new Button();
             btnFechar = new Button();
             lstHistorico = new ListBox();
             label1 = new Label();
@@ -175,19 +174,9 @@
             btnCalcular.UseVisualStyleBackColor = true;
             btnCalcular.Click += btnCalcular_Click;
             // 
-            // btnAlterar
-            // 
-            btnAlterar.Location = new Point(26, 307);
-            btnAlterar.Name = "btnAlterar";
-            btnAlterar.Size = new Size(75, 23);
-            btnAlterar.TabIndex = 9;
-            btnAlterar.Text = "Alterar";
-            btnAlterar.UseVisualStyleBackColor = true;
-            btnAlterar.Click += btnAlterar_Click;
-            // 
             // btnFechar
             // 
-            btnFechar.Location = new Point(109, 307);
+            btnFechar.Location = new Point(66, 307);
             btnFechar.Name = "btnFechar";
             btnFechar.Size = new Size(75, 23);
             btnFechar.TabIndex = 10;
@@ -222,7 +211,6 @@
             Controls.Add(label1);
             Controls.Add(lstHistorico);
             Controls.Add(btnFechar);
-            Controls.Add(btnAlterar);
             Controls.Add(btnCalcular);
             Controls.Add(btnLimpar);
             Controls.Add(grpAritmetica);
@@ -256,7 +244,6 @@
         private RadioButton rdbSomar;
         private Button btnLimpar;
         private Button btnCalcular;
-        private Button btnAlterar;
         private Button btnFechar;
         private ListBox lstHistorico;
         private Label label1;
